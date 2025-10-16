@@ -1,0 +1,61 @@
+# Build outputs
+x64/
+Win32/
+Debug/
+Release/
+*.obj
+*.iobj
+*.ipdb
+*.pdb
+*.idb
+*.ilk
+*.tlog/
+*.log
+*.exe
+*.dll
+*.lib
+*.exp
+
+# Visual Studio generated files
+.vs/
+*.suo
+*.user
+*.userosscache
+*.userprefs
+*.sln.docstates
+*.VC.db
+*.VC.opendb
+ipch/
+*_i.c
+*_p.c
+*_h.h
+*.cachefile
+*.ncb
+*.aps
+*.pch
+*.rsp
+*.pgc
+*.pgd
+*.tmp
+*.tmp_proj
+
+# Local project settings and logs
+*.vcxproj.user
+*.cmake
+build/
+CMakeCache.txt
+CMakeFiles/
+cmake-build-*/
+
+# Package manager artifacts
+packages/
+*.nuget.props
+*.nuget.targets
+
+# External repositories metadata
+external/imgui/.git/
+external/imgui/.github/
+
+# Misc
+Thumbs.db
+Desktop.ini
